@@ -1,5 +1,9 @@
-.vscode/
 .idea/
 *.iml
 *.xml
+### VS Code ###
+.vscode/
+
+### Mac OS ###
 .DS_Store
+/.idea/
