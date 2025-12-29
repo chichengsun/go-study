@@ -1,6 +1,7 @@
 .idea/
 *.iml
 *.xml
+*.txt
 ### VS Code ###
 .vscode/
 
