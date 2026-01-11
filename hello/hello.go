@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"reflect"
 )
 
 func main() {
@@ -11,4 +12,13 @@ func main() {
 	var name string
 	fmt.Scan(&name)
 	fmt.Println("Your name is: " + name)
+
+	s := make([]int, 5)
+	fmt.Println(s)
+	fmt.Println(len(s), cap(s))
+
+	t := reflect.TypeOf(s)
+	fmt.Println(t)
+	v := reflect.ValueOf(s)
+	fmt.Println(v)
 }

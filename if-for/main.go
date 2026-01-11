@@ -22,12 +22,12 @@ func main() {
 		fmt.Println("中年")
 	}
 
+	// 每个case执行完自动退出，不需要break，除非使用fallthrough（强制执行下一个case）
 	switch {
 	case age <= 0:
 		fmt.Println("未出生")
 	case age <= 18:
 		fmt.Println("未成年")
-		// fallthrough
 	case age <= 35:
 		fmt.Println("青年")
 	default:
